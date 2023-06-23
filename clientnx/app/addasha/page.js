@@ -47,7 +47,7 @@ const Addpatient = () => {
 
   return (
     <div className='asd'>
-      <h1>Add Patient</h1>
+      <h1>Add Asha</h1>
       <Form
         labelCol={{
           span: 10,
@@ -94,18 +94,18 @@ const Addpatient = () => {
 
             <div className="right-content">
               <p>
-                <Form.Item label="Patient ID" name="patient_id">
+                <Form.Item label="Asha ID" name="asha_id">
                   <Input />
                 </Form.Item>
-                <Form.Item label="Visit Date" name="visitDate">
+                {/* <Form.Item label="Visit Date" name="visitDate">
                   <DatePicker />
-                </Form.Item>
+                </Form.Item> */}
                 <Form.Item label="Ward number" name="wardNumber">
                   <Input />
                 </Form.Item>
-                <Form.Item label="Asha Worker" name="ashaWorker">
+                {/* <Form.Item label="Asha Worker" name="ashaWorker">
                   <Input />
-                </Form.Item>
+                </Form.Item> */}
                
               </p>
             </div>
