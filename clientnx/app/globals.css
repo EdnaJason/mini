@@ -14,6 +14,7 @@ img {
   }
   
   .heading1 {
+    /* width: 100%; */
     color: #ffffff;
     text-align: center;
     font-family: "Poppins", sans-serif;
@@ -393,3 +394,39 @@ img {
     margin-top: -10px;
   }
   
+  .content-wrapper {
+    display: flex;
+  }
+
+.left-content {
+    float: left;
+    width: 50%;
+    flex: 1;
+  }
+  
+.right-content {
+    float: right;
+    width: 50%;
+    flex: 1;
+  }
+
+   /* .rectangular{
+    width: 1250px;
+    height: 370px;
+    position: absolute;
+    left: 57px;
+    top: 300px;
+    border-radius: 41px;
+    background-color: rgba(219, 219, 249, 0.44);
+  }  */
+
+  /* .alignment{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    display:flex;
+  } */
+

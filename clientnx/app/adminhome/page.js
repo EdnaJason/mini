@@ -46,7 +46,8 @@ const AdminHome = () => {
 
   return (
     <section>
-      <div className="circle"></div>
+      <div className="alignment">
+      {/* <div className="circle"></div> */}
       <h2 className="heading1">Welcome back, Admin</h2>
 
       <div className="container-short">
@@ -79,6 +80,7 @@ const AdminHome = () => {
                 Profile
             </Button>*/}
         </div>
+      </div>
       </div>
     </section>
   );

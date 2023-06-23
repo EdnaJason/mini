@@ -1,18 +1,18 @@
 .content-wrapper {
-    display: flex;
-  }
+  display: flex;
+}
 
 .left-content {
-    float: left;
-    width: 50%;
-    flex: 1;
-  }
-  
+  float: left;
+  width: 50%;
+  flex: 1;
+}
+
 .right-content {
-    float: right;
-    width: 50%;
-    flex: 1;
-  }
+  float: right;
+  width: 50%;
+  flex: 1;
+}
 
 /* .app {
    display: grid;
@@ -28,4 +28,4 @@
   background-color: rgba(7, 9, 36, 0.24);
   text-align: center;
  
-}  */
+}   */

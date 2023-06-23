@@ -7,6 +7,7 @@ const ashaModel = require('../models/ashaModel')
 const loginController = async (req,res)=> {
     try {
         const user = await userModel.findOne({email:req.body.email})
+        console.log(user)
         if(!user)
         {
             return res.status(200).send({message:"user not found",success:false})
